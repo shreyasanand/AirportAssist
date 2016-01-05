@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Airport-Assist</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_start">Start</string>
+    <string name="airport_name">Dallas Love Field</string>
+    <string name="flights_departing">Flights Departing:</string>
+    <string name="sensor_1">78:A5:04:8C:2D:AD</string>
+    <string name="sensor_2">B4:99:4C:64:B9:46</string>
+    <string name="sensor_3">B4:99:4C:64:33:DC</string>
+    <string name="location_indicator">You are here</string>
+</resources>

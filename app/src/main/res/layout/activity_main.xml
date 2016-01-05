@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/homescreen"
+    tools:context="com.example.android.bluetoothlegatt.FlightActivity">
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:text="Enter Flight Info"-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:textSize="30sp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="42dp" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+        <!--android:text="Flight No."-->
+        <!--android:id="@+id/flightTxt"-->
+        <!--android:layout_below="@+id/textView"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginTop="78dp"-->
+        <!--android:textSize="25sp" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+        <!--android:text="Departure Date"-->
+        <!--android:id="@+id/deptTxt"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:textSize="25sp" />-->
+
+    <!--<EditText-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:inputType="date"-->
+        <!--android:ems="10"-->
+        <!--android:id="@+id/depDate"-->
+        <!--android:layout_alignTop="@+id/deptTxt"-->
+        <!--android:layout_toEndOf="@+id/deptTxt" />-->
+
+    <!--<EditText-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/flightNo"-->
+        <!--android:layout_alignBottom="@+id/flightTxt"-->
+        <!--android:layout_alignEnd="@+id/depDate"-->
+        <!--android:layout_toEndOf="@+id/deptTxt" />-->
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/action_start"
+        android:id="@+id/start"
+        android:layout_marginBottom="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/app_name"
+        android:id="@+id/textView2"
+        android:layout_marginTop="71dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/airport_name"
+        android:id="@+id/textView"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
